@@ -44,9 +44,9 @@ tenant-id
  
 Secrets are used to securely access ADLS using OAuth2 authentication:
  
-client_id     = dbutils.secrets.get(scope="codvmtlogmus6kvdevtst01", key="adls-client-id")
-client_secret = dbutils.secrets.get(scope="codvmtlogmus6kvdevtst01", key="adls-client-secret")
-tenant_id     = dbutils.secrets.get(scope="codvmtlogmus6kvdevtst01", key="tenant-id")
+client_id     = dbutils.secrets.get(scope="uxvus6kvdevtst01", key="adls-client-id")
+client_secret = dbutils.secrets.get(scope="uxvus6kvdevtst01", key="adls-client-secret")
+tenant_id     = dbutils.secrets.get(scope="uxvus6kvdevtst01", key="tenant-id")
  
  
 The storage details are managed in a config file:
@@ -175,3 +175,4 @@ Use job clusters with auto-termination.
 Secure all credentials using secret scopes.
  
 Monitor Delta table growth and optimize (ZORDER, VACUUM, etc.)
+
